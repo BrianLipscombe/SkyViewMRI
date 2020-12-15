@@ -86,6 +86,8 @@ Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
+All files and pages were validated by direct input with no syntax errors using:
+
 * [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 * [W3C CSS Validation Service]()
 
@@ -95,7 +97,11 @@ Balsamiq was used to create the wireframes during the design process.
 
 ## Deployment
 
-(coming soon)
+### GitHub
+
+This project was deployed to the developer's respository page:
+https://github.com/BrianLipscombe/SkyViewMRI
+
 
 ## Credits
 
