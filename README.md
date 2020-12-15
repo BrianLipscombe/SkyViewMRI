@@ -1,6 +1,6 @@
 # SkyView MRI Website
 
-[View the live project here.](https://8000-ef083cf3-e9c0-4b3f-80cc-c49aaf898701.ws-us03.gitpod.io/)
+[View the live project here.](https://8000-c4488478-74f7-48d6-a78f-5d9dd15970d2.ws-us03.gitpod.io/index.html)
 
 This is Brian Lipscombe's first Milestone Project at [Code Institute](https://codeinstitute.net).
 
