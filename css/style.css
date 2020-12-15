@@ -1,0 +1,635 @@
+/* Portions of code reproduced as a starting template from the Whiskey Drop Service example by Code Institute's Senior Product Developer Matt Rudge, from the "Bootstrapping Your Next Big Idea With Bootstrap 4" course */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Background Containers */
+
+.callout-container {
+    height: 350vh;
+
+    background: url(../images/background-sky.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0px;
+}
+
+.scheduling-page-container {
+     height: 180vh;
+
+    background: url(../images/background-sky.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0px;
+}
+
+.physicians-page-container {
+    height: 400vh;
+
+    background: url(../images/background-sky.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0px;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.text-center {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.features-container .content-container {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 200, 255, 0.25);
+    border: 0;
+}
+
+.navbar-expand-sm {
+    padding-bottom: 0px;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    padding-top: 0px;
+}
+
+.navbar .navbar-brand {
+    color: rgb(200, 200, 200);
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+.mr-auto {
+    text-align: right;
+    font-weight: bold;
+}
+
+.mr-2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-link {
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    margin-top: 100px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.jumbotron .lead {
+    color: #ffffff;
+    margin: 20px;
+    font-size: 100%;
+}
+
+.jumbotron medium {
+    font-size: 100%;
+    color: white;
+}
+
+.jumbotron .summary {
+    color: rgb(211, 211, 211);
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.carousel {
+    max-height: 500px;
+    max-width: 800px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    width: 300px;
+    max-width: 500px;
+    margin: 10px;
+    border-radius: 0px;
+}
+
+.btn--blue {
+    color: white;
+    background-color: #0000ff;
+    border-color: #0000ff;
+}
+
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    background-color: #0101a7;
+    border-color: #0101a7;
+    color: white;
+}
+
+.btn--green {
+    color: white;
+    background-color: #228b22;
+    border-color: #228b22;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    background-color: #165c16;
+    border-color: #165c16;
+    color: white;
+}
+
+.btn-primary {
+    font-weight: bold;
+    width: 300px;
+    max-width: 500px;
+    margin: 10px;
+    color: white;
+    background-color: #0000ff;
+    border-color: #0000ff;
+    border-radius: 0px;
+}   
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    background-color: #0101a7;
+    border-color: #0101a7;
+    color: white;
+}
+
+/* Summary */
+
+.summary-title {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.summary-pitch {
+    color: white;
+/* filter: brightness code from https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/brightness() */   
+    filter: brightness(1.75);
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    max-width: 900px;
+}
+
+/* Services */
+
+.services-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.services-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #0000ff;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.services-checkbox {
+    background: url("../images/services.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    max-width: 400px;
+    max-height: 1500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: transparent;
+}
+
+.block-divider--black {
+    color: #000000
+}
+
+.page-header {
+    padding-top: 30px;
+}
+
+.text-muted .pitch {
+    padding-top: 20px;
+}
+
+.text-muted {
+    padding-top: 20px;
+}
+
+/* Alert */
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+.physicians-header {
+    margin-top: 100px;
+    padding-bottom: 25px; 
+    color: white;
+}
+
+.scheduling-header {
+    margin-top: 100px;
+    color: white;
+}
+
+.physicians-pitch {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    max-width: 1150px;
+    margin: auto;
+}
+
+/* Articles */
+
+.news-container {
+    font-family: 'Times', sans-serif;
+    background-position: center;
+    background-color: rgba(200, 200, 200, 0.7); 
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin: auto;
+}
+
+.news-header {
+    margin: auto;
+}
+
+.article-one-date {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.article-one-snippet {
+    text-align: justify;
+    margin: auto;
+}
+
+.article-one-author {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.article-two-date {
+    text-align: left;
+    padding-top: 0px;
+}
+
+.article-two-snippet {
+    text-align: justify;
+    margin: auto;
+}
+
+.article-two-author {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color: #fafafa;
+    margin-right: 0;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.col-sm-4 {
+    text-align: center;
+}
+
+.hipaa-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hipaa-pdf i:hover {
+    color: #00ff50;
+}
+
+.social-links {
+    padding-bottom: 0px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 20%;
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: rgba(0, 200, 255, .5);
+    background: transparent;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgba(160, 220, 255, 0.3);;
+}
+
+.fa-map-marker-alt {
+    color: red;
+}
+
+#footer-details {
+    padding: 0px;
+}
+
+/* Scheduling Form */
+
+.scheduling-header {
+    padding-bottom: 30px;
+}
+
+.form {   
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.form-row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0px;
+}
+
+.form-check {
+    color: white;
+    padding-bottom: 0px; 
+}
+
+.terms {
+    color: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+.fa-calendar-alt {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+}
+
+.fa-clock {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+}
+
+.fa-user-md {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+}
+
+.fa-comment-dots {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+}
+
+/* Physicians Page */
+
+.radiologists-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    color:#0000ff;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.radiologists-images {
+    background: url("../images/radiologists.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    max-width: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: transparent;
+}
+
+.brain-mra-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    color:#0000ff;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.brain-mra-images {
+    background: url("../images/brain-mra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    max-width: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: transparent;
+}   
+
+.dtiplus-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    color:#0000ff;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dtiplus-images {
+    background: url("../images/brain-mra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    max-width: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: transparent;
+}
+
+.diffusion-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    color:#0000ff;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.diffusion-images {
+    background: url("../images/brain-mra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    max-width: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: transparent;
+}
+
+.gad-container {
+    background-color: rgba(255, 255, 255, 0.0);
+    color:#0000ff;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gad-images {
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    max-width: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: transparent;
+}
