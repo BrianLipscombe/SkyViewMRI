@@ -2,18 +2,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-/* Background Containers */
-
-.callout-container {
-    height: 350vh;
-
     background: url(../images/background-sky.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    justify-content: center;
+}
+
+/* Background Containers */
+
+.callout-container {
     
     display: flex;
     justify-content: center;
@@ -22,7 +21,6 @@ body {
 }
 
 .scheduling-page-container {
-     height: 180vh;
 
     background: url(../images/background-sky.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -37,7 +35,6 @@ body {
 }
 
 .physicians-page-container {
-    height: 400vh;
 
     background: url(../images/background-sky.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -272,9 +269,7 @@ body {
     background: url("../images/services.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    min-width: 200px;
-    max-width: 400px;
-    max-height: 1500px;
+    width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
@@ -415,8 +410,7 @@ body {
 
 footer {
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
     bottom: 0;
     left: 0;
     z-index: 1;
