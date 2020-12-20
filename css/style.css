@@ -12,8 +12,7 @@ body {
 
 /* Background Containers */
 
-.callout-container {
-    
+.callout-container { 
     display: flex;
     justify-content: center;
     position: relative;
@@ -21,13 +20,11 @@ body {
 }
 
 .scheduling-page-container {
-
     background: url(../images/background-sky.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     justify-content: center;
     position: relative;
@@ -41,7 +38,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     justify-content: center;
     position: relative;
@@ -255,21 +251,12 @@ body {
     font-weight: bold;
 }
 
-.services-container {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #0000ff;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
-}
-
 .services-checkbox {
     background: url("../images/services.jpg");
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    max-width: 700px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
@@ -350,10 +337,11 @@ body {
     color: white;
     padding-top: 10px;
     padding-bottom: 60px;
-    padding-left: 25px;
-    padding-right: 25px;
+    width: 100%;
+    max-width: 945px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
-    max-width: 1150px;
     margin: auto;
 }
 
@@ -362,18 +350,20 @@ body {
 .news-container {
     font-family: 'Times', sans-serif;
     background-position: center;
-    background-color: rgba(200, 200, 200, 0.7); 
+    background-color: rgba(200, 200, 200, 0.8);
+    width: 100%;
     font-size: 16px;
     font-weight: bold;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
     margin: auto;
 }
 
 .news-header {
     margin: auto;
+    text-align: center;
 }
 
 .article-one-date {
@@ -483,7 +473,7 @@ footer {
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 .form-row {
@@ -530,7 +520,6 @@ footer {
 /* Physicians Page */
 
 .radiologists-container {
-    background-color: rgba(255, 255, 255, 0.1);
     color:#0000ff;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
@@ -540,17 +529,15 @@ footer {
     background: url("../images/radiologists.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    min-width: 200px;
-    max-width: 500px;
+    width: 100%;
+    max-width: 900px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: transparent;
 }
 
 .brain-mra-container {
-    background-color: rgba(255, 255, 255, 0.1);
     color:#0000ff;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
@@ -560,17 +547,15 @@ footer {
     background: url("../images/brain-mra.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    min-width: 200px;
-    max-width: 500px;
+    width: 100%;
+    max-width: 900px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: transparent;
 }   
 
 .dtiplus-container {
-    background-color: rgba(255, 255, 255, 0.1);
     color:#0000ff;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
@@ -580,17 +565,15 @@ footer {
     background: url("../images/brain-mra.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    min-width: 200px;
-    max-width: 500px;
+    width: 100%;
+    max-width: 900px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: transparent;
 }
 
 .diffusion-container {
-    background-color: rgba(255, 255, 255, 0.1);
     color:#0000ff;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
@@ -600,13 +583,12 @@ footer {
     background: url("../images/brain-mra.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    min-width: 200px;
-    max-width: 500px;
+    width: 100%;
+    max-width: 900px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: transparent;
 }
 
 .gad-container {
@@ -619,11 +601,9 @@ footer {
 .gad-images {
     background-position: center;
     background-repeat: no-repeat;
-    min-width: 200px;
-    max-width: 500px;
+    width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: transparent;
 }

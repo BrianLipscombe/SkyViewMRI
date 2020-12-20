@@ -93,7 +93,7 @@ All files and pages were validated by direct input with no syntax errors using:
 
 ## Known Bugs
 
-* On some mobile devices the footer gets pushed upward to overlap other content on the lower portions of the pages. This project was sized in Google Chrome Developer Tools mainly using iPhone X and desktop browser views.
+* (This bug has been fixed) On some mobile devices the footer gets pushed upward to overlap other content on the lower portions of the pages. This project was sized in Google Chrome Developer Tools mainly using iPhone X and desktop browser views.
 
 ## Deployment
 
