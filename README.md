@@ -1,6 +1,6 @@
 # SkyView MRI Website
 
-[View the live project here.](https://8000-c4488478-74f7-48d6-a78f-5d9dd15970d2.ws-us03.gitpod.io/index.html)
+[View the live project here.](https://htmlpreview.github.io/?https://github.com/BrianLipscombe/SkyViewMRI/blob/master/index.html#carouselExampleFade)
 
 This is Brian Lipscombe's first Milestone Project at [Code Institute](https://codeinstitute.net).
 
@@ -86,10 +86,12 @@ Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
+All pages were tested on multiple resolutions for proper responsiveness.
+
 All files and pages were validated by direct input with no syntax errors using:
 
 * [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
-* [W3C CSS Validation Service]()
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ## Known Bugs
 

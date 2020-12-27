@@ -48,7 +48,6 @@ body {
 
 .physicians-contact {
     color: white;
-    text-transform: underline;
     text-align: center;
     padding-right: 20px;
     padding-left: 20px;
@@ -278,10 +277,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     max-width: 700px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
     color: transparent;
 }
 
@@ -359,7 +355,7 @@ body {
     padding-top: 10px;
     padding-bottom: 60px;
     width: 100%;
-    max-width: 945px;
+    max-width: 1000px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
@@ -545,90 +541,61 @@ footer {
 /* Physicians Page */
 
 .radiologists-container {
-    color:#0000ff;
+    max-width: 1000px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 .radiologists-images {
-    background: url("../images/radiologists.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    display: block;
     width: 100%;
-    max-width: 900px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
 }
 
 .brain-mra-container {
-    color:#0000ff;
+    max-width: 1000px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 .brain-mra-images {
-    background: url("../images/brain-mra.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    display: block;
     width: 100%;
-    max-width: 900px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
 }   
 
 .dtiplus-container {
-    color:#0000ff;
+    max-width: 1000px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 .dtiplus-images {
-    background: url("../images/brain-mra.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    display: block;
     width: 100%;
-    max-width: 900px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
 }
 
 .diffusion-container {
-    color:#0000ff;
+    max-width: 1000px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 .diffusion-images {
-    background: url("../images/brain-mra.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    display: block;
     width: 100%;
-    max-width: 900px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
 }
 
 .gad-container {
+    max-width: 1000px;
     background-color: rgba(255, 255, 255, 0.0);
-    color:#0000ff;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 .gad-images {
-    background-position: center;
-    background-repeat: no-repeat;
+    display: block;
     width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
 }
