@@ -22,26 +22,11 @@ body {
 }
 
 .scheduling-page-container {
-    background: url(../images/new-background-sky.jpg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
     position: relative;
     padding: 0px;
 }
 
 .physicians-page-container {
-
-    background: url(../images/new-background-sky.jpg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
     position: relative;
     padding: 0px;
 }
@@ -52,16 +37,6 @@ body {
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 30px;
-}
-
-.footer-number {
-    color: white;
-}
-
-.email-example {
-    color: white;
-    padding-top: 20px;
-    margin-top: 20px;
 }
 
 .row {
@@ -478,6 +453,16 @@ footer {
 
 .fa-map-marker-alt {
     color: red;
+}
+
+.footer-number {
+    color: white;
+}
+
+.email-example {
+    color: white;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 
 #footer-details {
