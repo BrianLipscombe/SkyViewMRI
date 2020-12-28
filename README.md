@@ -1,6 +1,6 @@
 # SkyView MRI Website
 
-[View the live project here.](https://htmlpreview.github.io/?https://github.com/BrianLipscombe/SkyViewMRI/blob/master/index.html#carouselExampleFade)
+[View the live project here.](https://htmlpreview.github.io/?https://github.com/BrianLipscombe/SkyViewMRI/blob/master/index.html#navbar)
 
 This is Brian Lipscombe's first Milestone Project at [Code Institute](https://codeinstitute.net).
 
