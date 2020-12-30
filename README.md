@@ -2,7 +2,9 @@
 
 [View the live project here.](https://htmlpreview.github.io/?https://github.com/BrianLipscombe/SkyViewMRI/blob/master/index.html)
 
-This is Brian Lipscombe's first Milestone Project at [Code Institute](https://codeinstitute.net).
+This is Brian Lipscombe's first Milestone Project at [Code Institute](https://codeinstitute.net). It was built using HTML5 and CSS3 in Gitpod. It is based on Project Idea 0, providing value to users to address a specific real or imagined need.
+It is intended to showcase a unique Magnetic Resonance Imaging facility with advanced and custom equipment that offers patients unable to complete traditional MRI exams due to obesity and/or claustrophobia, a way to achieve accurate diagnoses in the most comfortable and efficient manner.
+It is also designed to offer physicians a safer and more effective option to consider when ordering MRI exams for patients who fall within these categories, due to the high probability for expedited treatment. 
 
 ## User Experience (UX)
 
@@ -11,8 +13,8 @@ This is Brian Lipscombe's first Milestone Project at [Code Institute](https://co
     1. First Time Visitor Goals
 
         As a first time patient visitor, I want to learn more about the company's services and why I should choose them over other facilities. Specifically, how they cater toward patients who are obese and/or claustraphobic.
-        I want to be able to easily navigate throughout the site to find information and see images of the magnet and room.
-        I want to look for news articles to understand why the company is trusted.
+        I want to be able to easily navigate throughout the site to find information and see images of the magnet and exam room.
+        I want to understand why the company is trusted. Positive news articles about the facility would be a great indicator.
         I also want to locate their social media links to see their followings on social media to determine how well-known they are.
 
         As a first time physician visitor, I want to learn why I should refer my patients there.
