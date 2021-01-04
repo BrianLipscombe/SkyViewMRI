@@ -1,10 +1,10 @@
 # SkyView MRI Website
 
-[View the live project here.](https://htmlpreview.github.io/?https://github.com/BrianLipscombe/SkyViewMRI/blob/master/index.html)
+Note to Reviewer: Please clone this repo and view with a browser.
 
 This is Brian Lipscombe's first Milestone Project at [Code Institute](https://codeinstitute.net). It was built using HTML5 and CSS3 in Gitpod. It is based on Project Idea 0, providing value to users to address a specific real or imagined need.
-It is intended to showcase a unique Magnetic Resonance Imaging facility with advanced and custom equipment that offers patients unable to complete traditional MRI exams due to obesity and/or claustrophobia, a way to achieve accurate diagnoses in the most comfortable and efficient manner.
-It is also designed to offer physicians a safer and more effective option to consider when ordering MRI exams for patients who fall within these categories, due to the high probability for expedited treatment. 
+It is intended to showcase a unique Magnetic Resonance Imaging facility with advanced and custom equipment that offers patients who are unable to complete traditional MRI exams, due to obesity and/or claustrophobia, a way to achieve accurate diagnoses in the most comfortable and efficient manner.
+It is also designed to offer physicians a safer and more effective option to consider when ordering MRI exams for patients who fall within these categories, or who cannot safely receive common gadolinium contrast injections provided at other facilities. 
 
 ## User Experience (UX)
 
@@ -37,7 +37,7 @@ It is also designed to offer physicians a safer and more effective option to con
 
     1. Color Scheme
 
-        The three main colors used are blue, white, and green for big Earthly tones.
+        The three main colors used are blue, white, and green for big Earthly tones. Claustrophobic patients might enjoy the feeling of being outdoors rather than being confined in a small room.
 
     2. Typography
 
@@ -54,7 +54,7 @@ It is also designed to offer physicians a safer and more effective option to con
 
 ## Features
 
-* Responsive on all device sizes, although sized in Google Chrome Developer Tools mainly using iPhone X and desktop browser views.
+* Responsive on all device sizes.
 * Interactive elements: Bootstrap carousel, buttons, and form.
 
 ## Technologies Used
@@ -98,6 +98,8 @@ All files and pages were validated by direct input with no syntax errors using:
 ## Known Bugs
 
 * (This bug has been fixed) On some mobile devices the footer gets pushed upward to overlap other content on the lower portions of the pages. This project was sized in Google Chrome Developer Tools mainly using iPhone X and desktop browser views.
+
+* Carousel images sometimes do not transition properly when using github html preview. 
 
 ## Deployment
 
